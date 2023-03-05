@@ -19,7 +19,7 @@
       "age": 49,
       "height": 155,
       "weight": 52,
-      "sportsType": "Футбол"
+      "sportsType": "Борьба"
     },
     {
       "fullName": "Дементьева Наталья Никитична",
@@ -33,7 +33,7 @@
       "age": 16,
       "height": 200,
       "weight": 49,
-      "sportsType": "Тхэквондо"
+      "sportsType": "Футбол"
     }
   ]
 }

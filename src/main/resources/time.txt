@@ -1,31 +1,39 @@
 Linear search:
-	100: 299mcs
-	1000: 133mcs
-	5000: 628mcs
-	10000: 947mcs
-	50000: 4991mcs
-	100000: 9985mcs
+	5: 214mcs
+	100: 31mcs
+	500: 67mcs
+	1000: 166mcs
+	5000: 449mcs
+	10000: 1549mcs
+	50000: 4816mcs
+	100000: 9150mcs
 
 Binary search in sorted team:
-	100: 1057mcs
-	1000: 49mcs
-	5000: 222mcs
-	10000: 302mcs
-	50000: 1398mcs
-	100000: 3284mcs
+	5: 886mcs
+	100: 12mcs
+	500: 22mcs
+	1000: 53mcs
+	5000: 99mcs
+	10000: 326mcs
+	50000: 1656mcs
+	100000: 2464mcs
 
 Binary search with sorting:
-	100: 75mcs
-	1000: 588mcs
-	5000: 4107mcs
-	10000: 7711mcs
-	50000: 62436mcs
-	100000: 149452mcs
+	5: 43mcs
+	100: 53mcs
+	500: 279mcs
+	1000: 639mcs
+	5000: 5187mcs
+	10000: 9660mcs
+	50000: 72867mcs
+	100000: 172333mcs
 
 Search in MultiMap
-	100: 3mcs
-	1000: 0mcs
-	5000: 0mcs
-	10000: 1mcs
-	50000: 2mcs
-	100000: 19mcs
+	5: 2208ns
+	100: 458ns
+	500: 791ns
+	1000: 791ns
+	5000: 792ns
+	10000: 1208ns
+	50000: 2625ns
+	100000: 23958ns

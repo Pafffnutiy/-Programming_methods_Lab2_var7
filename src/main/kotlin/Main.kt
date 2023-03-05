@@ -2,7 +2,7 @@ import com.intellij.util.containers.MultiMap
 import java.io.File
 import kotlin.system.measureNanoTime
 
-val sizes = listOf(100, 1000, 5000, 10000, 50000, 100000)
+val sizes = listOf(5, 100, 500, 1000, 5000, 10000, 50000, 100000)
 
 fun main() {
     File("src/main/resources/time.txt").printWriter().use { writer ->
@@ -58,8 +58,8 @@ fun main() {
                     multimap.putValue(sportsman.sportsType, sportsman)
                 }
 
-                val timeToSearchInMultiMap = measureTimeMicros { multimap[target] }
-                writer.println("\t$size: ${timeToSearchInMultiMap}mcs")
+                val timeToSearchInMultiMap = measureNanoTime { multimap[target] }
+                writer.println("\t$size: ${timeToSearchInMultiMap}ns")
             }
         }
 

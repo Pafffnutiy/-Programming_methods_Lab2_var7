@@ -1,4 +1,6 @@
 # Алгоритмы линейного и бинарного поиска
+
+### Документация
 Use https://htmlpreview.github.io/ for see [Documentation.html](target/dokka/index.html)
 
 
